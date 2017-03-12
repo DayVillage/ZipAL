@@ -121,6 +121,7 @@ public class HbaseSink implements Serializable {
 
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("11111111111111111");
         }
         return  hbaseFileds;
     }
